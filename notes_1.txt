@@ -1,0 +1,19 @@
+Block Level
+- it occupy full width of screen available to them
+- div, form,table,h1...h6...
+Inline Level
+- it occupy area according to there content only
+- a,b,i,u,span...
+Inline block
+- it appear like inline but has a height and width
+
+we donot put any block element inside a inline element except a tag
+
+b - bold
+strong - 
+
+i - italic
+em - empasize
+
+u - underline
+ins - inserted
