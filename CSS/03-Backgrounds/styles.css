@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    background-image: url("https://icc-static-files.s3.amazonaws.com/ICC/photo/2018/10/24/6dd21ed9-34c3-4d4f-b55b-1618c9adbf02/Kohli.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    height: 600px;
+    margin-bottom: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("https://images.livemint.com/img/2019/08/15/600x338/kohli_1565878033663.jpg");
+}
+
+#div_2 {
+    background-image: url("https://www.thestatesman.com/wp-content/uploads/2019/07/Virat-Kohli.jpg");
+}
+
+#div_3 {
+    background-image: url("https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1561096160/1561096159.jpg");
+}
+
+#div_4 {
+    background-image: url("https://engcric.b-cdn.net/wp-content/uploads/2019/04/287719.jpg");
+}
+
+#div_5 {
+    background-image: url("https://data1.ibtimes.co.in/en/full/718127/ms-dhoni.jpg");
+}
+
+#div_6 {
+    background-image: url("https://www.mykhel.com/img/2019/07/ms-dhoni-dismissal-vs-afghanistan-1563208421.jpg");
+}
