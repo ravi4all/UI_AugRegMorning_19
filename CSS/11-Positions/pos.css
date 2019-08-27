@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    /* width: 50%; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#content {
+    margin-top: 120px;
+    padding: 0px 20px;
+}
+
+#sidebar_1 {
+    width: 20%;
+    background-color: lightgray;
+}
+
+#main {
+    width: 50%;
+    background-color: lightgray;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+#sidebar_2 {
+    width: 24%;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+}

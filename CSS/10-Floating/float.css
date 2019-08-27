@@ -1,0 +1,25 @@
+#parent {
+    border: 4px solid red;
+}
+
+#parent:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1 {
+    background-color: lightblue;
+    float: left;
+    width: 40%;
+}
+
+.col-2 {
+    background-color: lightgreen;
+    float: left;
+    width: 40%;
+}
+
+.div_1 {
+    background-color: lightgray;
+}

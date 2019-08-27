@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header {
+    padding: 20px;
+    background-color: #2874F0;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.search {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.search input[type='text'] {
+    width: 80%;
+    height: 30px;
+}
+
+.links {
+    float: right;
+    width: 30%;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    float: left;
+    margin: 0px 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
