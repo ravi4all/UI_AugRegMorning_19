@@ -22,8 +22,11 @@ body {
     text-align: center;
     padding: 10px;
     position: fixed;
+    /* position: sticky; */
     width: 100%;
+    /* margin-top: 300px; */
     top: 0px;
+    z-index: 1;
 }
 
 #content {
@@ -33,13 +36,38 @@ body {
 
 #sidebar_1 {
     width: 20%;
+    text-align: center;
     background-color: lightgray;
+    /* position: fixed; */
+    margin-top: 500px;
+    position: sticky;
+    height: 80%;
+    top: 120px;
+    overflow: scroll;
+}
+
+#sidebar_1 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar_1 ul li {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#sidebar_1 ul li a {
+    color: red;
+    text-decoration: none;
 }
 
 #main {
     width: 50%;
     background-color: lightgray;
-    margin-left: 15px;
+    /* margin-left: 22%; */
+    margin-left: 2%;
     padding: 10px;
 }
 
@@ -51,4 +79,17 @@ body {
 
 img {
     width: 100%;
+}
+
+#main .section .images {
+    position: relative;
+}
+
+#main .section .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15%;
+    margin-left: -45px;
+    margin-top: -47px;
 }
