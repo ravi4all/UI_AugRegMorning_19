@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #4267B2;
+    padding: 10px;
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header .logo {
+    width: 5%;
+}
+
+#header .logo i {
+    font-size: 25px;
+}
+
+#header .search {
+    width: 40%;
+    position: relative;
+}
+
+#header .search input[type="text"] {
+    width: 100%;
+}
+
+#header .search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#header .links {
+    width: 50%;
+}
+
+#header .links ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
