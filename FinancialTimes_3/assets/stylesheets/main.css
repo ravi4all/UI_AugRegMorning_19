@@ -1,0 +1,436 @@
+/* Global Settings */
+
+body {
+    margin: 0px;
+    background-color: #FFF1E5;
+    font-family: 'Arimo', sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+/* Helper Classes */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Generic CSS */
+
+#topbar {
+    background-color: #262A33;
+    padding: 10px 0px;
+}
+
+#topbar a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#topbar a .value {
+    border: 1px solid;
+    padding: 3px;
+    margin-left: 6px;
+    border-radius: 3px;
+}
+
+#topbar a .red {
+    color: #ff767c;
+    border-color: #ff767c;
+}
+
+#topbar a .green {
+    color: #9cd321;
+    border-color: #9cd321;
+}
+
+#topbar .stockValue {
+    width: 88%;
+}
+
+#topbar .visitMarket {
+    width: 9%;
+}
+
+#topbar ul li {
+    display: inline-block;
+    width: 18%;
+}
+
+#header {}
+
+#header .header_top {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ccc1b7;
+}
+
+#header .header_top a {
+    color: #000;
+}
+
+#header .header_top .icons {
+    width: 12%;
+    padding-top: 20px;
+}
+
+#header .header_top .icons span {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#header .header_top .logo {
+    width: 80%;
+    text-align: center;
+}
+
+#header .header_top h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#header .header_top .myFt {
+    width: 5%;
+    padding-top: 20px;
+}
+
+#header .header_bottom {
+    border-bottom: 1px solid #ccc1b7;
+}
+
+#header .header_bottom .container {
+    position: relative;
+}
+
+#main-navigation {}
+
+#main-navigation ul li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 8px;
+    text-transform: uppercase;
+}
+
+#main-navigation ul li a {
+    color: #000;
+    display: block;
+    padding: 8px 0px;
+}
+
+#main-navigation ul li.active a,
+#main-navigation ul li a:hover {
+    color: #0A5E66;
+    border-bottom: 3px solid #0A5E66;
+}
+
+#main-navigation ul li .dropdown {
+    position: absolute;
+    background-color: #FFF9F5;
+    width: 100%;
+    left: 0px;
+    top: 35px;
+    padding: 10px;
+    display: none;
+}
+
+#main-navigation ul li .dropdown .most-read li {
+    position: relative;
+}
+
+#main-navigation ul li .dropdown .most-read li::before {
+    content: "";
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23990F3D,%23990F3D&format=svg");
+    display: block;
+    height: 16px;
+    width: 20px;
+    position: absolute;
+    left: -20px;
+    top: 7px;
+    background-size: 100% 100%;
+}
+
+#main-navigation ul li .dropdown .sections li {
+    width: 45%;
+}
+
+#main-navigation .dropdown .sections {
+    width: 30%;
+    border-right: 1px solid #ccc1b7;
+}
+
+#main-navigation .dropdown .most-read {
+    width: 60%;
+    margin-left: 40px;
+}
+
+#main-navigation .dropdown .most-read li {
+    display: block;
+}
+
+#main-navigation ul li .dropdown a:hover {
+    border: none;
+}
+
+#main-navigation .dropdown li:hover a {
+    text-decoration: underline;
+}
+
+#main-navigation ul li:hover .dropdown {
+    display: block;
+}
+
+#main {}
+
+#sidebar {}
+
+#footer {}
+
+
+/* Specific CSS */
+
+
+/* Page 1 */
+
+
+/* Content */
+
+.link_1 {
+    color: #990f3d;
+    font-weight: bold;
+}
+
+#content .container {
+    width: 960px;
+}
+
+
+/* Section_1 */
+
+#section_1 {
+    padding: 30px 0px;
+    margin-bottom: 30px;
+}
+
+#section_1 .col-1 {
+    width: 49%;
+}
+
+#section_1 h1 {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+#section_1 h1 a {
+    color: #000;
+}
+
+#section_1 p {
+    color: #66605c;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+#section_1 ul {
+    list-style: disc;
+    padding-left: 25px;
+    color: #66605c;
+    border-left: 1px solid #66605c;
+}
+
+#section_1 ul li {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+#section_1 ul li a {
+    color: #66605c;
+}
+
+#section_1 .col-2 {
+    width: 49%;
+}
+
+#section_1 .image_box {
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+#section_1 .image_box:after {
+    content: "";
+    width: 100%;
+    background-color: #F2DFCE;
+    bottom: 0px;
+    height: 70%;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+#section_1 .image_box img {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+#section_1 .image_box h5 {
+    font-weight: bold;
+    position: relative;
+}
+
+#section_1 .image_box h5:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -5%;
+    border: 2px solid #990f3d;
+}
+
+#section_1 .image_box h5 a {
+    color: #990f3d;
+}
+
+#section_1 .image_box h2 a {
+    color: #000;
+}
+
+
+/* Section_2 */
+
+#section_2 .col-1 {
+    width: 67%;
+    border-top: 8px solid #F2E5D9;
+    position: relative;
+    padding-top: 15px;
+}
+
+#section_2 .col-1::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    top: -8px;
+    border: 4px solid #000;
+}
+
+#section_2 .col-2 {
+    width: 30%;
+    margin-left: 15px;
+    border-top: 8px solid #000;
+    padding-top: 15px;
+}
+
+#section_2 .sub-col-1 {
+    width: 42%;
+    border: 1px solid #66605c;
+    padding: 25px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#section_2 .sub-col-2 {
+    width: 45%;
+    margin-left: 15px;
+}
+
+#section_2 h3 a,
+#section_2 h4 a {
+    color: #000;
+}
+
+#section_2 p {
+    color: #66605c;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+#section_2 .sub-col-2 span {
+    font-size: 10px;
+    color: #990f3d;
+}
+
+#section_2 h4 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+#section_2 .sub-col-1 h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#section_2 .sub-col-1 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#section_2 .sub-col-1 .image {
+    position: absolute;
+    width: 70%;
+    right: -1px;
+    bottom: -60px;
+}
+
+#section_2 .sub-col-2 ul li {
+    border-bottom: 1px solid #66605c;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#section_2 .col-2 ol li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #66605c;
+}
+
+#section_2 .col-2 ol li a {
+    color: #000;
+}
+
+
+/* Page 2 */
