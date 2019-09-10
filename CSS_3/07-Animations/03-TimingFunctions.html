@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            position: absolute;
+            bottom: 0px;
+            left: 45%;
+            width: 10%;
+            animation: ball 3s infinite linear;
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: cubic-bezier(1, -0.610, 0.45, 1); */
+        }
+        
+        @keyframes ball {
+            0% {
+                bottom: 0px;
+                left: 45%;
+                transform: rotate(0deg);
+            }
+            25% {
+                bottom: 45%;
+                left: 0%;
+                transform: rotate(700deg);
+            }
+            50% {
+                bottom: 85%;
+                left: 45%;
+            }
+            75% {
+                bottom: 45%;
+                left: 90%;
+            }
+            100% {
+                bottom: 0px;
+                left: 45%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1>Timing Functions</h1> -->
+
+    <img src="../../images/Football.png" alt="">
+
+</body>
+
+</html>
