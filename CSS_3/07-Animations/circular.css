@@ -1,0 +1,47 @@
+#sun {
+    height: 200px;
+    width: 200px;
+    background-image: url("https://media.giphy.com/media/6CeM5kmPvwsiA/giphy.gif");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+#earth {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 28%;
+    top: 5%;
+}
+
+.earthImage {
+    height: 570px;
+    width: 550px;
+    /* border: 2px solid red; */
+    background-image: url("https://thumbs.gfycat.com/VillainousValuableAldabratortoise-small.gif");
+    background-size: auto 10%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: left center;
+    left: -4%;
+    top: -7%;
+    animation: earth 5s infinite linear;
+}
+
+.earthOrbit {
+    height: inherit;
+    width: inherit;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+@keyframes earth {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
