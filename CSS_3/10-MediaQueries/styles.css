@@ -1,0 +1,41 @@
+/* @media(max-width:1200px) {
+    body {
+        background-color: lightgray;
+    }
+} */
+
+@media(min-width:1200px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row>div {
+    height: 200px;
+    width: 30%;
+    background-color: red;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+@media all and (max-width:992px) and (min-width:576px) {
+    .row>div {
+        width: 45%;
+    }
+}
+
+@media(max-width:576px) {
+    .row {
+        display: block;
+    }
+    .row>div {
+        margin: 0 auto 20px;
+        width: 90%;
+    }
+}
