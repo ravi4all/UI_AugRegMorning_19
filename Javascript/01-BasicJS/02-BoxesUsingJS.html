@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>3 Types of boxes</h1>
+
+    <button onclick="alertUser()">Alert Box</button>
+    <button onclick="calc()">Prompt Box</button>
+    <button onclick="confirmBox()">Confirm Box</button>
+
+    <script>
+        function alertUser() {
+            alert("JS Loaded Successfully...");
+        }
+
+        function calc() {
+            var f_num = parseInt(prompt("Enter first number : ", 0));
+            var s_num = parseInt(prompt("Enter second number : ", 0));
+            var res = f_num + s_num;
+            alert("Result is " + res);
+        }
+
+        function confirmBox() {
+            var c = confirm("Are you sure you want to quit ?");
+            // console.log(c);
+            // truthy and falsy
+            if (c) {
+                window.close();
+            } else {
+                alert("You want to stay...");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
