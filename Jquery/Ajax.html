@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Jquery AJAX</h1>
+    <button onclick="loadAjax()">Load AJAX</button>
+    <ul id="list_1"></ul>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        // $.get("url", function(data){
+
+        // })
+        // $.ajax({
+        //     "url" : "",
+        //     "method" : "",
+        //     "success" : function(data) {
+
+        //     }
+        // })
+
+        function loadAjax() {
+            $.get("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=695e07af402f4b119f0703e9b19f4683", function(data) {
+                // console.log(data);
+                var articles = data.articles;
+                var ul = document.querySelector("#list_1");
+                articles.forEach(function(obj) {
+                    var li = document.createElement("li");
+                    var h3 = document.createElement("h3");
+                    var para = document.createElement("p");
+                    var img = document.createElement("img");
+                    h3.innerHTML = obj.title;
+                    para.innerHTML = obj.description;
+                    img.src = obj.urlToImage;
+                    li.appendChild(h3);
+                    li.appendChild(img);
+                    li.appendChild(para);
+                    ul.appendChild(li);
+                })
+            });
+        }
+    </script>
+</body>
+
+</html>
